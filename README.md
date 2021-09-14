@@ -1,5 +1,9 @@
 # Complex Help
 
+---
+> Feel free to use this and suggest what other features would be useful
+---
+
 - Complex Transformations
     - Cartesian to Polar
     - Polar to Cartesian
@@ -8,6 +12,3 @@
     - Subtraction
     - Multiplication
     - Division
-
-
-> Feel free to use this and suggest what other features would be useful
