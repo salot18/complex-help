@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Complex Help</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Complex Help</h1>
+
+  <div class="content">
+
+    <div class="transformation-section">
+      <h2>Complex Transformations</h2>
+      <table>
+        <thead>
+        </thead>
+        <tbody>
+          <tr></tr>
+          <tr></tr>
+          <tr></tr>
+          <tr></tr>
+          <tr></tr>
+          <tr></tr>
+          <tr></tr>
+          <tr></tr>
+          <tr></tr>
+          <tr></tr>
+          <tr></tr>
+          <tr>
+            <td>Polar:</td>
+            <td><input class="polar-input-field" type="number"></td>
+            <td>∠</td>
+            <td><input class="polar-input-field" type="number"></td>
+          </tr>
+          <tr>
+            <td>↓</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Cartesian:</td>
+            <td><input class="cartesian-trans-field" type="number" disabled></td>
+            <td>+ i</td>
+            <td><input class="cartesian-trans-field" type="number" disabled></td>
+          </tr>
+          <tr></tr>
+          <tr></tr>
+          <tr></tr>
+          <tr></tr>
+          <tr></tr>
+          <tr></tr>
+          <tr></tr>
+          <tr></tr>
+          <tr></tr>
+          <tr></tr>
+          <tr></tr>
+          <tr></tr>
+          <tr></tr>
+          <td>Cartesian:</td>
+          <td><input class="cartesian-input-field" type="number"></td>
+          <td>+ i</td>
+          <td><input class="cartesian-input-field" type="number"></td>
+          </tr>
+          <tr>
+            <td>↓</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Polar:</td>
+            <td><input class="polar-trans-field" type="number" disabled></td>
+            <td>∠</td>
+            <td><input class="polar-trans-field" type="number" disabled></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="operations-section">
+      <h2>Complex Operations</h2>
+
+      <div class="add-section">
+        <h3>Addition</h3>
+        <table>
+          <thead></thead>
+          <tbody>
+            <tr>
+              <td></td>
+              <td><input class="input-add-field real-add" type="number"></td>
+              <td>+ i</td>
+              <td><input class="input-add-field imag-add" type="number"></td>
+            </tr>
+            <tr>
+              <td>+</td>
+              <td><input class="input-add-field real-add" type="number"></td>
+              <td>+ i</td>
+              <td><input class="input-add-field imag-add" type="number"></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td><input class="sum-field real-sum" type="number" disabled></td>
+              <td>+ i</td>
+              <td><input class="sum-field imag-sum" type="number" disabled></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="sub-section">
+        <h3>Subtraction</h3>
+        <table>
+          <thead></thead>
+          <tbody>
+            <tr>
+              <td></td>
+              <td><input class="input-sub-field real-sub" type="number"></td>
+              <td>+ i</td>
+              <td><input class="input-sub-field imag-sub" type="number"></td>
+            </tr>
+            <tr>
+              <td>-</td>
+              <td><input class="input-sub-field real-sub" type="number"></td>
+              <td>+ i</td>
+              <td><input class="input-sub-field imag-sub" type="number"></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td><input class="diff-field real-diff" type="number" disabled></td>
+              <td>+ i</td>
+              <td><input class="diff-field imag-diff" type="number" disabled></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="mul-section">
+        <h3>Multipication</h3>
+        <table>
+          <thead></thead>
+          <tbody>
+            <tr>
+              <td></td>
+              <td><input class="input-mul-field real-mul" type="number"></td>
+              <td>+ i</td>
+              <td><input class="input-mul-field imag-mul" type="number"></td>
+            </tr>
+            <tr>
+              <td>x</td>
+              <td><input class="input-mul-field real-mul" type="number"></td>
+              <td>+ i</td>
+              <td><input class="input-mul-field imag-mul" type="number"></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td><input class="prod-field real-diff" type="number" disabled></td>
+              <td>+ i</td>
+              <td><input class="prod-field imag-diff" type="number" disabled></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="div-section">
+        <h3>Division</h3>
+        <table>
+          <thead></thead>
+          <tbody>
+            <tr>
+              <td></td>
+              <td><input class="input-div-field real-div" type="number"></td>
+              <td>+ i</td>
+              <td><input class="input-div-field imag-div" type="number"></td>
+            </tr>
+            <tr>
+              <td>÷</td>
+              <td><input class="input-div-field real-div" type="number"></td>
+              <td>+ i</td>
+              <td><input class="input-div-field imag-div" type="number"></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td><input class="quot-field real-diff" type="number" disabled></td>
+              <td>+ i</td>
+              <td><input class="quot-field imag-diff" type="number" disabled></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
