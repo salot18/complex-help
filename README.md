@@ -1,7 +1,6 @@
 # Complex Help
 
----
-> Feel free to use this and suggest what other features would be useful
+**Feel free to use this and suggest what other features would be useful**
 ---
 
 - Complex Transformations
